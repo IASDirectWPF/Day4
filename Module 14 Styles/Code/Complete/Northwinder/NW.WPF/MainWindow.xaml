@@ -23,6 +23,6 @@
             </MenuItem>
         </Menu>
         <Label Grid.Row="1">Products</Label>
-        <ListBox Grid.Row="2" Name="ListBoxProducts" MouseDoubleClick="CustomersListBox_MouseDoubleClick" Style="{StaticResource TimesNewSunriseStyle}"></ListBox>
+        <ListBox Grid.Row="2" Name="ListBoxProducts" MouseDoubleClick="CustomersListBox_MouseDoubleClick"></ListBox>
     </Grid>
 </Window>

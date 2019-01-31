@@ -61,6 +61,9 @@
     <Compile Include="Module11ElementBinding.xaml.cs">
       <DependentUpon>Module11ElementBinding.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Module13_14ResourcesStyles.xaml.cs">
+      <DependentUpon>Module13_14ResourcesStyles.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Startup.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -120,6 +123,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Module11ElementBinding.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Module13_14ResourcesStyles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
