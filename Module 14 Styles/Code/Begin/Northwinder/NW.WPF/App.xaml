@@ -1,0 +1,14 @@
+﻿<Application x:Class="NW.WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:NW.WPF"
+             StartupUri="MainWindow.xaml" 
+             Startup="Application_Startup" ShutdownMode="OnMainWindowClose" >     <!-- Application Events -->
+    <Application.Resources>
+        <LinearGradientBrush x:Key="SunriseBrush">
+            <GradientStop Color="Yellow" Offset="0.0" />
+            <GradientStop Color="Orange" Offset="0.5" />
+            <GradientStop Color="Red" Offset="1.0" />
+        </LinearGradientBrush>
+    </Application.Resources>
+</Application>
